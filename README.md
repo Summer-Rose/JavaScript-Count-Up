@@ -1,12 +1,12 @@
-# Project Name
+# Count Up
 
-##### _Project Purpose, date 2015_
+##### _Epicodus JavaScript Week One Classwork, 16 September 2015_
 
-#### By **Names**
+#### By **Summer Brochtrup & Kallen Millner**
 
 ## Description
 
-Description goes here
+Count Up takes two user inputed numbers, a multiple and a number to count up to, and then returns a list of multiples up to that number.
 
 ## Setup
 
@@ -23,7 +23,7 @@ Description goes here
 
 ### Legal
 
-Copyright (c) 2015 **NAMES**
+Copyright (c) 2015 **Summer Brochtrup & Kallen Millner**
 
 This software is licensed under the MIT license.
 
