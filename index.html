@@ -5,8 +5,31 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.11.3.js"></script>
     <script src="js/scripts.js"></script>
-    <title>TITLE GOES HERE</title>
+    <title>Count-Up!</title>
   </head>
   <body>
+    <div class="container">
+      <h3 class="well">Count-Up</h3>
+      <p>Insert a number as well as a multiple to count up to the final number!</p>
+
+      <form id="findMultiples">
+       <div class="form-group">
+         <label for="multiple">Enter Multiple</label>
+         <input id="multiple" type="number" required>
+         <label for="finalNumber">Enter Final Number</label>
+         <input id="finalNumber" type="number" required>
+         <br>
+       </div>
+
+       <button type="submit" class="btn">Submit</button>
+     </form>
+
+     <div id="result">
+       <h3>Your list of numbers <span class="multipleList"></span></h3><br>
+       <hr>
+       <p>The multiple you entered:<span class="userMultiple"></span></p><br>
+       <p>The final number you entered:<span class="userFinalNumber"></span></p><br>
+     </div>
+  </div>
   </body>
 </html>
